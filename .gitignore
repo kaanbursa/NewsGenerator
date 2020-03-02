@@ -1,0 +1,5 @@
+data/
+model/
+.vector_cache
+.data
+.ipynb_checkpoints
