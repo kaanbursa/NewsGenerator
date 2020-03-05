@@ -12,7 +12,6 @@ I used Multihead-Attention Transformer model and trained it on [All the news](ht
 1. Data Preprocessing
 2. Model Building
 3. Training
-4. Tuning
 5. Enjoying the model
 6. Limitations
 7. Conclusion
@@ -40,6 +39,9 @@ Positional Encoding is an add on to Embedding vector which encodes the distance 
 
 **Decoder**
 
+GPT-2 Architecture only contains decoder model which includes Masked Attention Mechanism with Layer Normalization and 12 of these layers. Which is than passed to FC with out token size.
+
+
 ## Training
 
 Training on text data is hard since it occupies lots of memory on RAM. Also GPT-2 large model is huge model which occupies a lot of space in the memory. We use PyTorch's DatasetIterator library to load text in batches from the text file on the fly. We tried several Sequence Length to train not drain memory and 512 seems to be working fine where the GPT-2 tokenizer cannot tokenize more than 1024 words.
@@ -66,9 +68,7 @@ Unfortunetly  there is Bias in data which the model captures lets see this examp
 
 The model has seen Kim Kardashian on the news most probabily however it decided that Nobel Prize winners are men so it continued as He/His
 
-#### 
-
-## Metrics
-
 
 ## Conclusion
+
+GPT-2 is an amazing model for multi-task and can be fine tuned for a lot of text. The goal is to reduce the size of the model and find a way to fine-tune the model the new information.
