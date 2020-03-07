@@ -30,11 +30,13 @@ GPT-2 is a large transformer-based language model with 1.5 billion parameters, t
 ![GPT-2](http://jalammar.github.io/images/gpt2/gpt2-simple-output-2.gif)
 [Courtesy of Jammar](http://jalammar.github.io/illustrated-gpt2/)
 
-**Byte Pair Encoding**
+**Byte Pair Encoding** 
+
 Byte Pair Encoding is a word tokenization algorithm used by GPT-2.
 [Detailed Explanation](https://leimao.github.io/blog/Byte-Pair-Encoding/)
 
 **Positional Encoding**
+
 Positional Encoding is an add on to Embedding vector which encodes the distance between words.[1](https://datascience.stackexchange.com/questions/51065/what-is-the-positional-encoding-in-the-transformer-model)
 
 **Decoder**
