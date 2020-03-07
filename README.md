@@ -31,7 +31,7 @@ GPT-2 is a large transformer-based language model with 1.5 billion parameters, t
 [Courtesy of Jammar](http://jalammar.github.io/illustrated-gpt2/)
 
 **Byte Pair Encoding**
-Byte Pair Encoding is a word tokenization algorithm used by GPT-2 model to overcome some of the limitations of Word2Vec on capturing similarities on words with suffixes like smart - smart-er.
+Byte Pair Encoding is a word tokenization algorithm used by GPT-2.
 [Detailed Explanation](https://leimao.github.io/blog/Byte-Pair-Encoding/)
 
 **Positional Encoding**
@@ -71,4 +71,4 @@ The model has seen Kim Kardashian on the news most probabily however it decided 
 
 ## Conclusion
 
-GPT-2 is an amazing model for multi-task and can be fine tuned for a lot of text. The goal is to reduce the size of the model and find a way to fine-tune the model the new information.
+GPT-2 is an amazing model for multi-task and can be fine tuned for a lot of text. The goal is to reduce the size of the model and find a way to fine-tune the model the new information. Text metrics like BLEU is not suitable for generating news we need human interpretation.
